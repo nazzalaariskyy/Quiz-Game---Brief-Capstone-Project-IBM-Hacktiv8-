@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+
+<body class="bg-light d-flex justify-content-center align-items-center vh-100">
+  <div class="star-container"></div>
+    <!-- Start Screen -->
+  <div class="overlay">
+    <div id="start-screen">
+      <h2 style="color: rgb(43, 41, 41);">Welcome to Quiz game</h2>
+      <div style="text-align: right">
+        <button id="start-btn" class="btn btn-primary mt-3">Mulai Quiz</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="quiz-screen" class="quiz-box card shadow p-4" style="width: 400px; display: none;">
+    <div class="d-flex justify-content-between align-items-center mb-2">
+      <div id="question-indicator" class="mb-2 text-muted"></div>
+      <div id="timer" class="badge bg-primary">10s</div>
+    </div>
+
+    <h4 id="question" class="mb-4"></h4>
+
+    <div id="answers" class="mb-3"></div>
+    <button id="next-btn" class="btn btn-primary w-100" disabled>Selanjutnya</button>
+    <div id="result-message" class="mt-3 text-center"></div>
+    <img id="result-image" src="" alt="" class="img-fluid mt-2 d-block mx-auto" style="max-height: 200px; display: none;">
+
+    
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
