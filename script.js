@@ -209,16 +209,16 @@ function showResult() {
 
   if (score >= 8) {
     resultMessage.innerHTML = "Hormat ege, ada sepuh nihh. Minggir pemula, sepuh mau lewat 🙇‍♀️💯";
-    resultImage.src = "nilai/bagus.jpg";
+    resultImage.src = "bootstrap-5.3.7-dist/nilai/bagus.jpg";
   } else if (score >= 5) {
     resultMessage.innerHTML = "Ingat kata user miya 'Late game gw buat lu kocar kacir'. Tetep semangat belajar lagi yach 😄👏";
-    resultImage.src = "nilai/medium.jpg";
+    resultImage.src = "bootstrap-5.3.7-dist/nilai/medium.jpg";
   } else if (score >= 1) {
     resultMessage.innerHTML = "Mayan!! Yang penting ga 0 sih nilainya 😅";
-    resultImage.src = "nilai/jelek.jpg";
+    resultImage.src = "bootstrap-5.3.7-dist/nilai/jelek.jpg";
   } else {
     resultMessage.innerHTML = "Karepmu le";
-    resultImage.src = "nilai/0.jpg";
+    resultImage.src = "bootstrap-5.3.7-dist/nilai/0.jpg";
   }
   resultImage.style.display = 'block';
 }
